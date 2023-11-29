@@ -1,4 +1,4 @@
-package com.example.nso_project;
+package com.example;
 
 public class Utility {
     static {
