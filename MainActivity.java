@@ -1,4 +1,4 @@
-package com.example.nso_project;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.nso_project.databinding.ActivityMainBinding;
+import com.exampl.databinding.ActivityMainBinding;
 import android.view.View;
 import android.widget.Button;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
 
-    // Used to load the 'nso_project' library on application startup.
+    // Used to load the library on application startup.
     static {
-        System.loadLibrary("nso_project");
+        System.loadLibrary("project");
         System.loadLibrary("hello");
     }
 
