@@ -5,7 +5,7 @@ using namespace std;
 #include <android/log.h>
 
 //extern "C" JNIEXPORT void JNICALL
-//Java_com_example_nso_project_Utility_loadLib(
+//Java_com_example__project_Utility_loadLib(
 //        JNIEnv* env,
 //        jobject, jstring libPath) {
 //
@@ -21,7 +21,7 @@ using namespace std;
 //
 //extern "C"
 //JNIEXPORT void JNICALL
-//Java_com_example_nso_project_Utility_unloadLib(JNIEnv *env, jobject thiz, jstring libPath) {
+//Java_com_example__project_Utility_unloadLib(JNIEnv *env, jobject thiz, jstring libPath) {
 //    const char* functionName = __func__;
 //    __android_log_print(ANDROID_LOG_INFO, "NativeTag", "Function Name: %s", functionName);
 //
@@ -34,7 +34,7 @@ using namespace std;
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_example_nso_1project_Utility_loadLib(JNIEnv *env, jobject thiz, jstring lib_path) {
+Java_com_example__1project_Utility_loadLib(JNIEnv *env, jobject thiz, jstring lib_path) {
     const char* functionName = __func__;
     __android_log_print(ANDROID_LOG_INFO, "NativeTag", "Function Name: %s", functionName);
 
@@ -46,7 +46,7 @@ Java_com_example_nso_1project_Utility_loadLib(JNIEnv *env, jobject thiz, jstring
 }
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_example_nso_1project_Utility_unloadLib(JNIEnv *env, jobject thiz, jstring lib_path) {
+Java_com_example__1project_Utility_unloadLib(JNIEnv *env, jobject thiz, jstring lib_path) {
     const char* functionName = __func__;
     __android_log_print(ANDROID_LOG_INFO, "NativeTag", "Function Name: %s", functionName);
 
